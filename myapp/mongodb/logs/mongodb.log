@@ -1,0 +1,106 @@
+2022-02-09T10:42:23.120+0100 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2022-02-09T10:42:23.123+0100 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2022-02-09T10:42:23.125+0100 I  CONTROL  [initandlisten] MongoDB starting : pid=10288 port=27019 dbpath=..\data\db 64-bit host=DESKTOP-96RGUT9
+2022-02-09T10:42:23.125+0100 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2022-02-09T10:42:23.126+0100 I  CONTROL  [initandlisten] db version v4.2.10
+2022-02-09T10:42:23.126+0100 I  CONTROL  [initandlisten] git version: 88276238fa97b47c0ef14362b343c5317ecbd739
+2022-02-09T10:42:23.137+0100 I  CONTROL  [initandlisten] allocator: tcmalloc
+2022-02-09T10:42:23.137+0100 I  CONTROL  [initandlisten] modules: none
+2022-02-09T10:42:23.137+0100 I  CONTROL  [initandlisten] build environment:
+2022-02-09T10:42:23.138+0100 I  CONTROL  [initandlisten]     distmod: 2012plus
+2022-02-09T10:42:23.138+0100 I  CONTROL  [initandlisten]     distarch: x86_64
+2022-02-09T10:42:23.138+0100 I  CONTROL  [initandlisten]     target_arch: x86_64
+2022-02-09T10:42:23.138+0100 I  CONTROL  [initandlisten] options: { config: "mongodb.conf", net: { port: 27019 }, storage: { dbPath: "..\data\db" }, systemLog: { destination: "file", path: "..\logs\mongodb.log" } }
+2022-02-09T10:42:23.140+0100 I  STORAGE  [initandlisten] Detected data files in ..\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2022-02-09T10:42:23.140+0100 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3532M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2022-02-09T10:42:23.919+0100 I  STORAGE  [initandlisten] WiredTiger message [1644399743:918432][10288:140723916330320], txn-recover: Recovering log 8 through 9
+2022-02-09T10:42:24.204+0100 I  STORAGE  [initandlisten] WiredTiger message [1644399744:204435][10288:140723916330320], txn-recover: Recovering log 9 through 9
+2022-02-09T10:42:24.495+0100 I  STORAGE  [initandlisten] WiredTiger message [1644399744:495428][10288:140723916330320], txn-recover: Main recovery loop: starting at 8/17024 to 9/256
+2022-02-09T10:42:24.937+0100 I  STORAGE  [initandlisten] WiredTiger message [1644399744:937432][10288:140723916330320], txn-recover: Recovering log 8 through 9
+2022-02-09T10:42:25.258+0100 I  STORAGE  [initandlisten] WiredTiger message [1644399745:257425][10288:140723916330320], txn-recover: Recovering log 9 through 9
+2022-02-09T10:42:25.411+0100 I  STORAGE  [initandlisten] WiredTiger message [1644399745:411434][10288:140723916330320], txn-recover: Set global recovery timestamp: (0, 0)
+2022-02-09T10:42:27.022+0100 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2022-02-09T10:42:27.033+0100 I  STORAGE  [initandlisten] Timestamp monitor starting
+2022-02-09T10:42:27.449+0100 I  CONTROL  [initandlisten] 
+2022-02-09T10:42:27.449+0100 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2022-02-09T10:42:27.449+0100 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2022-02-09T10:42:27.450+0100 I  CONTROL  [initandlisten] 
+2022-02-09T10:42:27.450+0100 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2022-02-09T10:42:27.450+0100 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2022-02-09T10:42:27.450+0100 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2022-02-09T10:42:27.451+0100 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2022-02-09T10:42:27.451+0100 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2022-02-09T10:42:27.451+0100 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2022-02-09T10:42:27.451+0100 I  CONTROL  [initandlisten] 
+2022-02-09T10:42:27.467+0100 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2022-02-09T10:42:27.533+0100 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2022-02-09T10:42:27.533+0100 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2022-02-09T10:42:27.534+0100 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2022-02-09T10:42:27.539+0100 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2022-02-09T10:42:32.825+0100 W  FTDC     [initandlisten] Failed to initialize Performance Counters for FTDC: WindowsPdhError: PdhExpandCounterPathW failed with 'L’objet spécifié n’a pas été trouvé sur l’ordinateur.' for counter '\Memory\Available Bytes'
+2022-02-09T10:42:32.825+0100 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '../data/db/diagnostic.data'
+2022-02-09T10:42:32.830+0100 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2022-02-09T10:42:32.830+0100 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2022-02-09T10:42:32.830+0100 I  NETWORK  [listener] Listening on 127.0.0.1
+2022-02-09T10:42:32.831+0100 I  NETWORK  [listener] waiting for connections on port 27019
+2022-02-09T10:42:33.004+0100 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2022-02-09T10:42:33.122+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:61188 #1 (1 connection now open)
+2022-02-09T10:42:33.123+0100 I  NETWORK  [conn1] received client metadata from 127.0.0.1:61188 conn1: { driver: { name: "nodejs", version: "3.7.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19043" }, platform: "'Node.js v16.13.2, LE (unified)" }
+2022-02-09T10:42:47.274+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:61195 #2 (2 connections now open)
+2022-02-09T10:42:47.278+0100 I  NETWORK  [conn2] received client metadata from 127.0.0.1:61195 conn2: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.2.10" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 19043)" } }
+2022-02-09T10:43:10.069+0100 I  COMMAND  [conn2] command test-app.$cmd appName: "MongoDB Shell" command: listCollections { listCollections: 1.0, filter: {}, nameOnly: true, authorizedCollections: true, lsid: { id: UUID("dc66d15f-b410-4ce2-a9c6-243646d1cba2") }, $db: "test-app" } numYields:0 reslen:166 locks:{ ParallelBatchWriterMode: { acquireCount: { r: 1 } }, ReplicationStateTransition: { acquireCount: { w: 1 } }, Global: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 2 } }, Mutex: { acquireCount: { r: 1 } } } protocol:op_msg 1029ms
+2022-02-09T10:43:28.118+0100 I  SHARDING [conn2] Marking collection test-app.collections as collection version: <unsharded>
+2022-02-09T10:43:35.688+0100 I  SHARDING [conn2] Marking collection test-app.sessions as collection version: <unsharded>
+2022-02-09T10:43:41.828+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54810 #3 (3 connections now open)
+2022-02-09T10:43:41.829+0100 I  NETWORK  [conn3] received client metadata from 127.0.0.1:54810 conn3: { driver: { name: "nodejs", version: "3.7.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19043" }, platform: "'Node.js v16.13.2, LE (unified)" }
+2022-02-09T10:46:16.312+0100 I  NETWORK  [conn1] end connection 127.0.0.1:61188 (2 connections now open)
+2022-02-09T10:46:16.312+0100 I  NETWORK  [conn3] end connection 127.0.0.1:54810 (1 connection now open)
+2022-02-09T10:46:49.906+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54977 #4 (2 connections now open)
+2022-02-09T10:46:49.915+0100 I  NETWORK  [conn4] received client metadata from 127.0.0.1:54977 conn4: { driver: { name: "nodejs", version: "3.7.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19043" }, platform: "'Node.js v16.13.2, LE (unified)" }
+2022-02-09T10:46:49.928+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54978 #5 (3 connections now open)
+2022-02-09T10:46:49.929+0100 I  NETWORK  [conn5] received client metadata from 127.0.0.1:54978 conn5: { driver: { name: "nodejs", version: "3.7.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19043" }, platform: "'Node.js v16.13.2, LE (unified)" }
+2022-02-09T10:48:22.776+0100 I  NETWORK  [conn4] end connection 127.0.0.1:54977 (2 connections now open)
+2022-02-09T10:48:22.776+0100 I  NETWORK  [conn5] end connection 127.0.0.1:54978 (1 connection now open)
+2022-02-09T10:48:41.226+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55041 #6 (2 connections now open)
+2022-02-09T10:48:41.234+0100 I  NETWORK  [conn6] received client metadata from 127.0.0.1:55041 conn6: { driver: { name: "nodejs", version: "3.7.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19043" }, platform: "'Node.js v16.13.2, LE (unified)" }
+2022-02-09T10:48:41.244+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55042 #7 (3 connections now open)
+2022-02-09T10:48:41.245+0100 I  NETWORK  [conn7] received client metadata from 127.0.0.1:55042 conn7: { driver: { name: "nodejs", version: "3.7.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19043" }, platform: "'Node.js v16.13.2, LE (unified)" }
+2022-02-09T10:56:40.727+0100 I  NETWORK  [conn2] end connection 127.0.0.1:61195 (2 connections now open)
+2022-02-09T10:56:44.254+0100 I  CONTROL  [thread8] CTRL_CLOSE_EVENT signal
+2022-02-09T10:56:44.254+0100 I  CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2022-02-09T10:56:44.254+0100 I  REPL     [consoleTerminate] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+2022-02-09T10:56:44.255+0100 I  SHARDING [consoleTerminate] Shutting down the WaitForMajorityService
+2022-02-09T10:56:44.255+0100 I  CONTROL  [consoleTerminate] Shutting down the LogicalSessionCache
+2022-02-09T10:56:44.255+0100 I  NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2022-02-09T10:56:44.256+0100 I  NETWORK  [consoleTerminate] Shutting down the global connection pool
+2022-02-09T10:56:44.256+0100 I  STORAGE  [consoleTerminate] Shutting down the FlowControlTicketholder
+2022-02-09T10:56:44.256+0100 I  -        [consoleTerminate] Stopping further Flow Control ticket acquisitions.
+2022-02-09T10:56:44.256+0100 I  STORAGE  [consoleTerminate] Shutting down the PeriodicThreadToAbortExpiredTransactions
+2022-02-09T10:56:44.256+0100 I  STORAGE  [consoleTerminate] Shutting down the PeriodicThreadToDecreaseSnapshotHistoryIfNotNeeded
+2022-02-09T10:56:44.257+0100 I  REPL     [consoleTerminate] Shutting down the ReplicationCoordinator
+2022-02-09T10:56:44.257+0100 I  SHARDING [consoleTerminate] Shutting down the ShardingInitializationMongoD
+2022-02-09T10:56:44.257+0100 I  REPL     [consoleTerminate] Enqueuing the ReplicationStateTransitionLock for shutdown
+2022-02-09T10:56:44.257+0100 I  -        [consoleTerminate] Killing all operations for shutdown
+2022-02-09T10:56:44.257+0100 I  COMMAND  [consoleTerminate] Shutting down all open transactions
+2022-02-09T10:56:44.257+0100 I  REPL     [consoleTerminate] Acquiring the ReplicationStateTransitionLock for shutdown
+2022-02-09T10:56:44.257+0100 I  INDEX    [consoleTerminate] Shutting down the IndexBuildsCoordinator
+2022-02-09T10:56:44.257+0100 I  NETWORK  [consoleTerminate] Shutting down the ReplicaSetMonitor
+2022-02-09T10:56:44.257+0100 I  CONTROL  [consoleTerminate] Shutting down free monitoring
+2022-02-09T10:56:44.257+0100 I  CONTROL  [consoleTerminate] Shutting down free monitoring
+2022-02-09T10:56:44.258+0100 I  FTDC     [consoleTerminate] Shutting down full-time data capture
+2022-02-09T10:56:44.258+0100 I  FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2022-02-09T10:56:44.261+0100 I  STORAGE  [consoleTerminate] Shutting down the HealthLog
+2022-02-09T10:56:44.262+0100 I  STORAGE  [consoleTerminate] Shutting down the storage engine
+2022-02-09T10:56:44.262+0100 I  STORAGE  [consoleTerminate] Deregistering all the collections
+2022-02-09T10:56:44.262+0100 I  STORAGE  [consoleTerminate] Timestamp monitor shutting down
+2022-02-09T10:56:44.262+0100 I  STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2022-02-09T10:56:44.263+0100 I  STORAGE  [consoleTerminate] Shutting down session sweeper thread
+2022-02-09T10:56:44.263+0100 I  STORAGE  [consoleTerminate] Finished shutting down session sweeper thread
+2022-02-09T10:56:44.263+0100 I  STORAGE  [consoleTerminate] Shutting down journal flusher thread
+2022-02-09T10:56:44.332+0100 I  STORAGE  [consoleTerminate] Finished shutting down journal flusher thread
+2022-02-09T10:56:44.332+0100 I  STORAGE  [consoleTerminate] Shutting down checkpoint thread
+2022-02-09T10:56:44.332+0100 I  STORAGE  [consoleTerminate] Finished shutting down checkpoint thread
+2022-02-09T10:56:44.445+0100 I  STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2022-02-09T10:56:44.445+0100 I  -        [consoleTerminate] Dropping the scope cache for shutdown
+2022-02-09T10:56:44.445+0100 I  CONTROL  [consoleTerminate] now exiting
+2022-02-09T10:56:44.445+0100 I  CONTROL  [consoleTerminate] shutting down with code:12

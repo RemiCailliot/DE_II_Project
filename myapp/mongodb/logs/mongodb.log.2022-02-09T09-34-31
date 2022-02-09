@@ -1,0 +1,350 @@
+2022-02-08T18:58:41.630+0100 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2022-02-08T18:58:41.779+0100 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2022-02-08T18:58:41.812+0100 I  CONTROL  [initandlisten] MongoDB starting : pid=14060 port=27018 dbpath=C:\mongodb\data\db 64-bit host=DESKTOP-96RGUT9
+2022-02-08T18:58:41.812+0100 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2022-02-08T18:58:41.813+0100 I  CONTROL  [initandlisten] db version v4.2.10
+2022-02-08T18:58:41.813+0100 I  CONTROL  [initandlisten] git version: 88276238fa97b47c0ef14362b343c5317ecbd739
+2022-02-08T18:58:41.813+0100 I  CONTROL  [initandlisten] allocator: tcmalloc
+2022-02-08T18:58:41.813+0100 I  CONTROL  [initandlisten] modules: none
+2022-02-08T18:58:41.813+0100 I  CONTROL  [initandlisten] build environment:
+2022-02-08T18:58:41.814+0100 I  CONTROL  [initandlisten]     distmod: 2012plus
+2022-02-08T18:58:41.814+0100 I  CONTROL  [initandlisten]     distarch: x86_64
+2022-02-08T18:58:41.814+0100 I  CONTROL  [initandlisten]     target_arch: x86_64
+2022-02-08T18:58:41.814+0100 I  CONTROL  [initandlisten] options: { config: "mongodb.conf", net: { port: 27018 }, storage: { dbPath: "C:\mongodb\data\db" }, systemLog: { destination: "file", path: "C:\mongodb\logs\mongodb.log" } }
+2022-02-08T18:58:41.894+0100 I  STORAGE  [initandlisten] Detected data files in C:\mongodb\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2022-02-08T18:58:41.941+0100 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3532M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2022-02-08T18:58:42.661+0100 I  STORAGE  [initandlisten] WiredTiger message [1644343122:660759][14060:140723916330320], txn-recover: Recovering log 6 through 7
+2022-02-08T18:58:42.796+0100 I  STORAGE  [initandlisten] WiredTiger message [1644343122:795749][14060:140723916330320], txn-recover: Recovering log 7 through 7
+2022-02-08T18:58:42.959+0100 I  STORAGE  [initandlisten] WiredTiger message [1644343122:958748][14060:140723916330320], txn-recover: Main recovery loop: starting at 6/6272 to 7/256
+2022-02-08T18:58:43.181+0100 I  STORAGE  [initandlisten] WiredTiger message [1644343123:181748][14060:140723916330320], txn-recover: Recovering log 6 through 7
+2022-02-08T18:58:43.336+0100 I  STORAGE  [initandlisten] WiredTiger message [1644343123:335966][14060:140723916330320], txn-recover: Recovering log 7 through 7
+2022-02-08T18:58:43.429+0100 I  STORAGE  [initandlisten] WiredTiger message [1644343123:428975][14060:140723916330320], txn-recover: Set global recovery timestamp: (0, 0)
+2022-02-08T18:58:43.877+0100 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2022-02-08T18:58:44.339+0100 I  STORAGE  [initandlisten] Timestamp monitor starting
+2022-02-08T18:58:44.395+0100 I  CONTROL  [initandlisten] 
+2022-02-08T18:58:44.396+0100 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2022-02-08T18:58:44.396+0100 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2022-02-08T18:58:44.396+0100 I  CONTROL  [initandlisten] 
+2022-02-08T18:58:44.396+0100 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2022-02-08T18:58:44.396+0100 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2022-02-08T18:58:44.396+0100 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2022-02-08T18:58:44.396+0100 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2022-02-08T18:58:44.397+0100 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2022-02-08T18:58:44.397+0100 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2022-02-08T18:58:44.414+0100 I  CONTROL  [initandlisten] 
+2022-02-08T18:58:44.595+0100 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2022-02-08T18:58:44.708+0100 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2022-02-08T18:58:44.753+0100 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2022-02-08T18:58:44.765+0100 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2022-02-08T18:58:44.954+0100 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2022-02-08T18:58:48.474+0100 W  FTDC     [initandlisten] Failed to initialize Performance Counters for FTDC: WindowsPdhError: PdhExpandCounterPathW failed with 'L’objet spécifié n’a pas été trouvé sur l’ordinateur.' for counter '\Memory\Available Bytes'
+2022-02-08T18:58:48.474+0100 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/mongodb/data/db/diagnostic.data'
+2022-02-08T18:58:48.562+0100 I  NETWORK  [listener] Listening on 127.0.0.1
+2022-02-08T18:58:48.562+0100 I  NETWORK  [listener] waiting for connections on port 27018
+2022-02-08T18:58:48.572+0100 I  SHARDING [LogicalSessionCacheReap] Marking collection config.system.sessions as collection version: <unsharded>
+2022-02-08T18:58:48.580+0100 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2022-02-08T18:58:49.067+0100 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2022-02-08T19:09:49.422+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54291 #1 (1 connection now open)
+2022-02-08T19:09:49.427+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54292 #2 (2 connections now open)
+2022-02-08T19:09:49.625+0100 I  NETWORK  [conn2] received client metadata from 127.0.0.1:54292 conn2: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:09:49.786+0100 I  SHARDING [conn1] Marking collection scala.countries as collection version: <unsharded>
+2022-02-08T19:09:59.399+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54293 #3 (3 connections now open)
+2022-02-08T19:09:59.403+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54294 #4 (4 connections now open)
+2022-02-08T19:09:59.410+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54295 #5 (5 connections now open)
+2022-02-08T19:09:59.413+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54296 #6 (6 connections now open)
+2022-02-08T19:09:59.418+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54297 #7 (7 connections now open)
+2022-02-08T19:09:59.422+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54298 #8 (8 connections now open)
+2022-02-08T19:09:59.426+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54299 #9 (9 connections now open)
+2022-02-08T19:09:59.428+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54300 #10 (10 connections now open)
+2022-02-08T19:09:59.431+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54301 #11 (11 connections now open)
+2022-02-08T19:15:14.995+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54383 #12 (12 connections now open)
+2022-02-08T19:15:14.996+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54384 #13 (13 connections now open)
+2022-02-08T19:15:15.189+0100 I  NETWORK  [conn13] received client metadata from 127.0.0.1:54384 conn13: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:15:25.001+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54385 #14 (14 connections now open)
+2022-02-08T19:15:25.003+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54386 #15 (15 connections now open)
+2022-02-08T19:15:25.005+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54387 #16 (16 connections now open)
+2022-02-08T19:15:25.010+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54388 #17 (17 connections now open)
+2022-02-08T19:15:25.013+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54389 #18 (18 connections now open)
+2022-02-08T19:15:25.015+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54390 #19 (19 connections now open)
+2022-02-08T19:15:25.016+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54391 #20 (20 connections now open)
+2022-02-08T19:15:25.017+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54392 #21 (21 connections now open)
+2022-02-08T19:15:25.019+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54393 #22 (22 connections now open)
+2022-02-08T19:16:29.298+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54435 #23 (23 connections now open)
+2022-02-08T19:16:29.299+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54436 #24 (24 connections now open)
+2022-02-08T19:16:29.481+0100 I  NETWORK  [conn24] received client metadata from 127.0.0.1:54436 conn24: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:16:39.311+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54438 #25 (25 connections now open)
+2022-02-08T19:16:39.312+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54437 #26 (26 connections now open)
+2022-02-08T19:16:39.315+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54439 #27 (27 connections now open)
+2022-02-08T19:16:39.318+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54440 #28 (28 connections now open)
+2022-02-08T19:16:39.321+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54441 #29 (29 connections now open)
+2022-02-08T19:16:39.324+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54442 #30 (30 connections now open)
+2022-02-08T19:16:39.325+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54443 #31 (31 connections now open)
+2022-02-08T19:16:39.327+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54444 #32 (32 connections now open)
+2022-02-08T19:16:39.329+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54445 #33 (33 connections now open)
+2022-02-08T19:27:44.963+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54620 #34 (34 connections now open)
+2022-02-08T19:27:44.964+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54619 #35 (35 connections now open)
+2022-02-08T19:27:45.185+0100 I  NETWORK  [conn34] received client metadata from 127.0.0.1:54620 conn34: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:27:54.961+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54621 #36 (36 connections now open)
+2022-02-08T19:27:54.963+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54622 #37 (37 connections now open)
+2022-02-08T19:27:54.964+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54623 #38 (38 connections now open)
+2022-02-08T19:27:54.969+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54624 #39 (39 connections now open)
+2022-02-08T19:27:54.971+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54625 #40 (40 connections now open)
+2022-02-08T19:27:54.976+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54626 #41 (41 connections now open)
+2022-02-08T19:27:54.979+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54627 #42 (42 connections now open)
+2022-02-08T19:27:54.981+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54628 #43 (43 connections now open)
+2022-02-08T19:27:54.984+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54629 #44 (44 connections now open)
+2022-02-08T19:28:21.060+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54635 #45 (45 connections now open)
+2022-02-08T19:28:21.064+0100 I  NETWORK  [conn45] received client metadata from 127.0.0.1:54635 conn45: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.2.10" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 19043)" } }
+2022-02-08T19:28:48.783+0100 I  WRITE    [LogicalSessionCacheRefresh] update config.system.sessions command: { q: { _id: { id: UUID("424757a5-4050-43dc-ab44-c27f6ff2c068"), uid: BinData(0, E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855) } }, u: { $currentDate: { lastUse: true } }, multi: false, upsert: true } planSummary: IDHACK keysExamined:0 docsExamined:0 nMatched:0 nModified:0 upsert:1 keysInserted:2 numYields:0 locks:{ ParallelBatchWriterMode: { acquireCount: { r: 1 } }, ReplicationStateTransition: { acquireCount: { w: 1 } }, Global: { acquireCount: { w: 1 } }, Database: { acquireCount: { w: 1 } }, Collection: { acquireCount: { w: 1 } }, Mutex: { acquireCount: { r: 2 } } } flowControl:{ acquireCount: 1, timeAcquiringMicros: 5 } storage:{} 163ms
+2022-02-08T19:28:48.798+0100 I  COMMAND  [LogicalSessionCacheRefresh] command config.$cmd command: update { update: "system.sessions", ordered: false, allowImplicitCollectionCreation: false, writeConcern: { w: "majority", wtimeout: 15000 }, $db: "config" } numYields:0 reslen:171 locks:{ ParallelBatchWriterMode: { acquireCount: { r: 2 } }, ReplicationStateTransition: { acquireCount: { w: 2 } }, Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { w: 1 } }, Collection: { acquireCount: { w: 1 } }, Mutex: { acquireCount: { r: 2 } } } flowControl:{ acquireCount: 1, timeAcquiringMicros: 5 } storage:{} protocol:op_msg 179ms
+2022-02-08T19:29:59.629+0100 I  NETWORK  [conn12] end connection 127.0.0.1:54383 (44 connections now open)
+2022-02-08T19:29:59.630+0100 I  NETWORK  [conn2] end connection 127.0.0.1:54292 (43 connections now open)
+2022-02-08T19:29:59.632+0100 I  NETWORK  [conn1] end connection 127.0.0.1:54291 (42 connections now open)
+2022-02-08T19:29:59.633+0100 I  NETWORK  [conn13] end connection 127.0.0.1:54384 (41 connections now open)
+2022-02-08T19:29:59.634+0100 I  NETWORK  [conn24] end connection 127.0.0.1:54436 (40 connections now open)
+2022-02-08T19:29:59.635+0100 I  NETWORK  [conn23] end connection 127.0.0.1:54435 (39 connections now open)
+2022-02-08T19:29:59.636+0100 I  NETWORK  [conn34] end connection 127.0.0.1:54620 (38 connections now open)
+2022-02-08T19:29:59.637+0100 I  NETWORK  [conn35] end connection 127.0.0.1:54619 (37 connections now open)
+2022-02-08T19:29:59.651+0100 I  NETWORK  [conn44] end connection 127.0.0.1:54629 (34 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn27] end connection 127.0.0.1:54439 (23 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn21] end connection 127.0.0.1:54392 (17 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn17] end connection 127.0.0.1:54388 (13 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn9] end connection 127.0.0.1:54299 (7 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn38] end connection 127.0.0.1:54623 (31 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn43] end connection 127.0.0.1:54628 (30 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn36] end connection 127.0.0.1:54621 (29 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn32] end connection 127.0.0.1:54444 (28 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn33] end connection 127.0.0.1:54445 (27 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn30] end connection 127.0.0.1:54442 (26 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn31] end connection 127.0.0.1:54443 (25 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn28] end connection 127.0.0.1:54440 (24 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn29] end connection 127.0.0.1:54441 (22 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn26] end connection 127.0.0.1:54437 (21 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn25] end connection 127.0.0.1:54438 (20 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn37] end connection 127.0.0.1:54622 (19 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn22] end connection 127.0.0.1:54393 (18 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn19] end connection 127.0.0.1:54390 (16 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn20] end connection 127.0.0.1:54391 (15 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn18] end connection 127.0.0.1:54389 (14 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn16] end connection 127.0.0.1:54387 (12 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn14] end connection 127.0.0.1:54385 (11 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn11] end connection 127.0.0.1:54301 (10 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn10] end connection 127.0.0.1:54300 (9 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn8] end connection 127.0.0.1:54298 (8 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn7] end connection 127.0.0.1:54297 (6 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn6] end connection 127.0.0.1:54296 (5 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn5] end connection 127.0.0.1:54295 (4 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn3] end connection 127.0.0.1:54293 (3 connections now open)
+2022-02-08T19:29:59.651+0100 I  NETWORK  [conn42] end connection 127.0.0.1:54627 (35 connections now open)
+2022-02-08T19:29:59.651+0100 I  NETWORK  [conn41] end connection 127.0.0.1:54626 (36 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn4] end connection 127.0.0.1:54294 (2 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn39] end connection 127.0.0.1:54624 (33 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn40] end connection 127.0.0.1:54625 (32 connections now open)
+2022-02-08T19:29:59.652+0100 I  NETWORK  [conn15] end connection 127.0.0.1:54386 (1 connection now open)
+2022-02-08T19:30:41.929+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54675 #46 (2 connections now open)
+2022-02-08T19:30:41.930+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54676 #47 (3 connections now open)
+2022-02-08T19:30:42.121+0100 I  NETWORK  [conn46] received client metadata from 127.0.0.1:54675 conn46: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:30:51.938+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54677 #48 (4 connections now open)
+2022-02-08T19:30:51.939+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54678 #49 (5 connections now open)
+2022-02-08T19:30:51.941+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54679 #50 (6 connections now open)
+2022-02-08T19:30:51.944+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54680 #51 (7 connections now open)
+2022-02-08T19:30:51.950+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54681 #52 (8 connections now open)
+2022-02-08T19:30:51.956+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54682 #53 (9 connections now open)
+2022-02-08T19:30:51.959+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54683 #54 (10 connections now open)
+2022-02-08T19:30:51.960+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54684 #55 (11 connections now open)
+2022-02-08T19:30:51.962+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54685 #56 (12 connections now open)
+2022-02-08T19:31:48.577+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54724 #57 (13 connections now open)
+2022-02-08T19:31:48.578+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54725 #58 (14 connections now open)
+2022-02-08T19:31:48.719+0100 I  NETWORK  [conn58] received client metadata from 127.0.0.1:54725 conn58: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:31:55.578+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54759 #59 (15 connections now open)
+2022-02-08T19:31:55.579+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54758 #60 (16 connections now open)
+2022-02-08T19:31:55.727+0100 I  NETWORK  [conn59] received client metadata from 127.0.0.1:54759 conn59: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:31:58.582+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54760 #61 (17 connections now open)
+2022-02-08T19:31:58.586+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54761 #62 (18 connections now open)
+2022-02-08T19:31:58.588+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54762 #63 (19 connections now open)
+2022-02-08T19:31:58.592+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54763 #64 (20 connections now open)
+2022-02-08T19:31:58.594+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54764 #65 (21 connections now open)
+2022-02-08T19:31:58.598+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54765 #66 (22 connections now open)
+2022-02-08T19:31:58.602+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54766 #67 (23 connections now open)
+2022-02-08T19:31:58.605+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54767 #68 (24 connections now open)
+2022-02-08T19:31:58.606+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54768 #69 (25 connections now open)
+2022-02-08T19:31:59.268+0100 I  NETWORK  [conn61] end connection 127.0.0.1:54760 (24 connections now open)
+2022-02-08T19:31:59.270+0100 I  NETWORK  [conn57] end connection 127.0.0.1:54724 (23 connections now open)
+2022-02-08T19:31:59.270+0100 I  NETWORK  [conn50] end connection 127.0.0.1:54679 (22 connections now open)
+2022-02-08T19:31:59.271+0100 I  NETWORK  [conn46] end connection 127.0.0.1:54675 (21 connections now open)
+2022-02-08T19:31:59.272+0100 I  NETWORK  [conn47] end connection 127.0.0.1:54676 (20 connections now open)
+2022-02-08T19:31:59.273+0100 I  NETWORK  [conn49] end connection 127.0.0.1:54678 (18 connections now open)
+2022-02-08T19:31:59.272+0100 I  NETWORK  [conn48] end connection 127.0.0.1:54677 (19 connections now open)
+2022-02-08T19:31:59.273+0100 I  NETWORK  [conn51] end connection 127.0.0.1:54680 (17 connections now open)
+2022-02-08T19:31:59.273+0100 I  NETWORK  [conn52] end connection 127.0.0.1:54681 (16 connections now open)
+2022-02-08T19:31:59.273+0100 I  NETWORK  [conn53] end connection 127.0.0.1:54682 (15 connections now open)
+2022-02-08T19:31:59.273+0100 I  NETWORK  [conn54] end connection 127.0.0.1:54683 (14 connections now open)
+2022-02-08T19:31:59.273+0100 I  NETWORK  [conn55] end connection 127.0.0.1:54684 (13 connections now open)
+2022-02-08T19:31:59.273+0100 I  NETWORK  [conn56] end connection 127.0.0.1:54685 (12 connections now open)
+2022-02-08T19:31:59.273+0100 I  NETWORK  [conn58] end connection 127.0.0.1:54725 (11 connections now open)
+2022-02-08T19:31:59.275+0100 I  NETWORK  [conn59] end connection 127.0.0.1:54759 (10 connections now open)
+2022-02-08T19:31:59.276+0100 I  NETWORK  [conn65] end connection 127.0.0.1:54764 (9 connections now open)
+2022-02-08T19:31:59.277+0100 I  NETWORK  [conn60] end connection 127.0.0.1:54758 (8 connections now open)
+2022-02-08T19:31:59.277+0100 I  NETWORK  [conn62] end connection 127.0.0.1:54761 (7 connections now open)
+2022-02-08T19:31:59.277+0100 I  NETWORK  [conn63] end connection 127.0.0.1:54762 (6 connections now open)
+2022-02-08T19:31:59.277+0100 I  NETWORK  [conn64] end connection 127.0.0.1:54763 (5 connections now open)
+2022-02-08T19:31:59.277+0100 I  NETWORK  [conn67] end connection 127.0.0.1:54766 (3 connections now open)
+2022-02-08T19:31:59.277+0100 I  NETWORK  [conn66] end connection 127.0.0.1:54765 (4 connections now open)
+2022-02-08T19:31:59.277+0100 I  NETWORK  [conn68] end connection 127.0.0.1:54767 (2 connections now open)
+2022-02-08T19:31:59.277+0100 I  NETWORK  [conn69] end connection 127.0.0.1:54768 (1 connection now open)
+2022-02-08T19:33:47.574+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54813 #70 (2 connections now open)
+2022-02-08T19:33:47.575+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54812 #71 (3 connections now open)
+2022-02-08T19:33:48.014+0100 I  NETWORK  [conn70] received client metadata from 127.0.0.1:54813 conn70: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:33:48.773+0100 I  COMMAND  [LogicalSessionCacheRefresh] command config.system.sessions command: find { find: "system.sessions", filter: { _id: { $in: [ { id: UUID("424757a5-4050-43dc-ab44-c27f6ff2c068"), uid: BinData(0, E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855) } ] } }, projection: { _id: 1 }, batchSize: 1, singleBatch: true, limit: 1, $db: "config" } planSummary: IXSCAN { _id: 1 } keysExamined:1 docsExamined:0 cursorExhausted:1 numYields:0 nreturned:1 queryHash:30DDC8DB planCacheKey:3E67319A reslen:196 locks:{ ReplicationStateTransition: { acquireCount: { w: 1 } }, Global: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } }, Mutex: { acquireCount: { r: 1 } } } flowControl:{ acquireCount: 2, timeAcquiringMicros: 3 } storage:{} protocol:op_msg 124ms
+2022-02-08T19:33:57.612+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54814 #72 (4 connections now open)
+2022-02-08T19:33:57.613+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54815 #73 (5 connections now open)
+2022-02-08T19:33:57.617+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54816 #74 (6 connections now open)
+2022-02-08T19:33:57.621+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54817 #75 (7 connections now open)
+2022-02-08T19:33:57.623+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54818 #76 (8 connections now open)
+2022-02-08T19:33:57.629+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54819 #77 (9 connections now open)
+2022-02-08T19:33:57.630+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54820 #78 (10 connections now open)
+2022-02-08T19:33:57.633+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54821 #79 (11 connections now open)
+2022-02-08T19:33:57.634+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54822 #80 (12 connections now open)
+2022-02-08T19:35:57.344+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54868 #81 (13 connections now open)
+2022-02-08T19:35:57.345+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54867 #82 (14 connections now open)
+2022-02-08T19:35:57.479+0100 I  NETWORK  [conn82] received client metadata from 127.0.0.1:54867 conn82: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:36:07.361+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54874 #83 (15 connections now open)
+2022-02-08T19:36:07.362+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54875 #84 (16 connections now open)
+2022-02-08T19:36:07.365+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54876 #85 (17 connections now open)
+2022-02-08T19:36:07.368+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54877 #86 (18 connections now open)
+2022-02-08T19:36:07.370+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54878 #87 (19 connections now open)
+2022-02-08T19:36:07.374+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54880 #88 (20 connections now open)
+2022-02-08T19:36:07.375+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54879 #89 (21 connections now open)
+2022-02-08T19:36:07.376+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54881 #90 (22 connections now open)
+2022-02-08T19:36:07.377+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54882 #91 (23 connections now open)
+2022-02-08T19:36:21.593+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54917 #92 (24 connections now open)
+2022-02-08T19:36:21.594+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54916 #93 (25 connections now open)
+2022-02-08T19:36:21.772+0100 I  NETWORK  [conn93] received client metadata from 127.0.0.1:54916 conn93: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:36:31.620+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54923 #94 (26 connections now open)
+2022-02-08T19:36:31.622+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54924 #95 (27 connections now open)
+2022-02-08T19:36:31.623+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54925 #96 (28 connections now open)
+2022-02-08T19:36:31.628+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54926 #97 (29 connections now open)
+2022-02-08T19:36:31.631+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54927 #98 (30 connections now open)
+2022-02-08T19:36:31.633+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54928 #99 (31 connections now open)
+2022-02-08T19:36:31.635+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54929 #100 (32 connections now open)
+2022-02-08T19:36:31.636+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54930 #101 (33 connections now open)
+2022-02-08T19:36:31.639+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54931 #102 (34 connections now open)
+2022-02-08T19:37:37.169+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54976 #103 (35 connections now open)
+2022-02-08T19:37:37.170+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54977 #104 (36 connections now open)
+2022-02-08T19:37:37.334+0100 I  NETWORK  [conn104] received client metadata from 127.0.0.1:54977 conn104: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T19:37:47.180+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54979 #105 (37 connections now open)
+2022-02-08T19:37:47.182+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54980 #106 (38 connections now open)
+2022-02-08T19:37:47.185+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54981 #107 (39 connections now open)
+2022-02-08T19:37:47.189+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54982 #108 (40 connections now open)
+2022-02-08T19:37:47.191+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54983 #109 (41 connections now open)
+2022-02-08T19:37:47.196+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54984 #110 (42 connections now open)
+2022-02-08T19:37:47.197+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54985 #111 (43 connections now open)
+2022-02-08T19:37:47.198+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54986 #112 (44 connections now open)
+2022-02-08T19:37:47.200+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:54987 #113 (45 connections now open)
+2022-02-08T19:42:45.418+0100 I  QUERY    [clientcursormon] Cursor id 7389778008375503152 timed out, idle since 2022-02-08T19:32:44.126+0100
+2022-02-08T20:21:46.936+0100 I  NETWORK  [conn105] end connection 127.0.0.1:54979 (44 connections now open)
+2022-02-08T20:21:46.936+0100 I  NETWORK  [conn94] end connection 127.0.0.1:54923 (43 connections now open)
+2022-02-08T20:21:46.936+0100 I  NETWORK  [conn72] end connection 127.0.0.1:54814 (42 connections now open)
+2022-02-08T20:21:46.937+0100 I  NETWORK  [conn75] end connection 127.0.0.1:54817 (41 connections now open)
+2022-02-08T20:21:46.941+0100 I  NETWORK  [conn70] end connection 127.0.0.1:54813 (40 connections now open)
+2022-02-08T20:21:46.941+0100 I  NETWORK  [conn71] end connection 127.0.0.1:54812 (39 connections now open)
+2022-02-08T20:21:46.941+0100 I  NETWORK  [conn74] end connection 127.0.0.1:54816 (38 connections now open)
+2022-02-08T20:21:46.942+0100 I  NETWORK  [conn73] end connection 127.0.0.1:54815 (37 connections now open)
+2022-02-08T20:21:46.942+0100 I  NETWORK  [conn76] end connection 127.0.0.1:54818 (36 connections now open)
+2022-02-08T20:21:46.942+0100 I  NETWORK  [conn77] end connection 127.0.0.1:54819 (35 connections now open)
+2022-02-08T20:21:46.943+0100 I  NETWORK  [conn78] end connection 127.0.0.1:54820 (34 connections now open)
+2022-02-08T20:21:46.944+0100 I  NETWORK  [conn79] end connection 127.0.0.1:54821 (33 connections now open)
+2022-02-08T20:21:46.946+0100 I  NETWORK  [conn80] end connection 127.0.0.1:54822 (32 connections now open)
+2022-02-08T20:21:46.946+0100 I  NETWORK  [conn88] end connection 127.0.0.1:54880 (31 connections now open)
+2022-02-08T20:21:46.948+0100 I  NETWORK  [conn83] end connection 127.0.0.1:54874 (30 connections now open)
+2022-02-08T20:21:46.950+0100 I  NETWORK  [conn82] end connection 127.0.0.1:54867 (29 connections now open)
+2022-02-08T20:21:46.956+0100 I  NETWORK  [conn81] end connection 127.0.0.1:54868 (28 connections now open)
+2022-02-08T20:21:46.957+0100 I  NETWORK  [conn84] end connection 127.0.0.1:54875 (27 connections now open)
+2022-02-08T20:21:46.958+0100 I  NETWORK  [conn85] end connection 127.0.0.1:54876 (26 connections now open)
+2022-02-08T20:21:46.959+0100 I  NETWORK  [conn86] end connection 127.0.0.1:54877 (25 connections now open)
+2022-02-08T20:21:46.959+0100 I  NETWORK  [conn87] end connection 127.0.0.1:54878 (24 connections now open)
+2022-02-08T20:21:46.960+0100 I  NETWORK  [conn89] end connection 127.0.0.1:54879 (23 connections now open)
+2022-02-08T20:21:46.962+0100 I  NETWORK  [conn90] end connection 127.0.0.1:54881 (22 connections now open)
+2022-02-08T20:21:46.964+0100 I  NETWORK  [conn91] end connection 127.0.0.1:54882 (21 connections now open)
+2022-02-08T20:21:46.964+0100 I  NETWORK  [conn107] end connection 127.0.0.1:54981 (20 connections now open)
+2022-02-08T20:21:46.965+0100 I  NETWORK  [conn95] end connection 127.0.0.1:54924 (19 connections now open)
+2022-02-08T20:21:46.965+0100 I  NETWORK  [conn92] end connection 127.0.0.1:54917 (18 connections now open)
+2022-02-08T20:21:46.973+0100 I  NETWORK  [conn93] end connection 127.0.0.1:54916 (17 connections now open)
+2022-02-08T20:21:46.973+0100 I  NETWORK  [conn96] end connection 127.0.0.1:54925 (16 connections now open)
+2022-02-08T20:21:46.975+0100 I  NETWORK  [conn97] end connection 127.0.0.1:54926 (15 connections now open)
+2022-02-08T20:21:46.975+0100 I  NETWORK  [conn98] end connection 127.0.0.1:54927 (14 connections now open)
+2022-02-08T20:21:46.975+0100 I  NETWORK  [conn99] end connection 127.0.0.1:54928 (13 connections now open)
+2022-02-08T20:21:46.976+0100 I  NETWORK  [conn100] end connection 127.0.0.1:54929 (12 connections now open)
+2022-02-08T20:21:46.976+0100 I  NETWORK  [conn101] end connection 127.0.0.1:54930 (11 connections now open)
+2022-02-08T20:21:46.976+0100 I  NETWORK  [conn102] end connection 127.0.0.1:54931 (10 connections now open)
+2022-02-08T20:21:46.976+0100 I  NETWORK  [conn106] end connection 127.0.0.1:54980 (9 connections now open)
+2022-02-08T20:21:46.979+0100 I  NETWORK  [conn104] end connection 127.0.0.1:54977 (8 connections now open)
+2022-02-08T20:21:46.979+0100 I  NETWORK  [conn103] end connection 127.0.0.1:54976 (7 connections now open)
+2022-02-08T20:21:46.979+0100 I  NETWORK  [conn108] end connection 127.0.0.1:54982 (6 connections now open)
+2022-02-08T20:21:46.979+0100 I  NETWORK  [conn109] end connection 127.0.0.1:54983 (5 connections now open)
+2022-02-08T20:21:46.980+0100 I  NETWORK  [conn111] end connection 127.0.0.1:54985 (4 connections now open)
+2022-02-08T20:21:46.980+0100 I  NETWORK  [conn110] end connection 127.0.0.1:54984 (3 connections now open)
+2022-02-08T20:21:46.980+0100 I  NETWORK  [conn112] end connection 127.0.0.1:54986 (2 connections now open)
+2022-02-08T20:21:46.981+0100 I  NETWORK  [conn113] end connection 127.0.0.1:54987 (1 connection now open)
+2022-02-08T20:32:17.435+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55925 #114 (2 connections now open)
+2022-02-08T20:32:17.435+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55926 #115 (3 connections now open)
+2022-02-08T20:32:17.605+0100 I  NETWORK  [conn114] received client metadata from 127.0.0.1:55925 conn114: { os: { type: "Windows", name: "windows 10", architecture: "amd64", version: "10.0" }, platform: "Scala 2.13", application: { name: "Supervisor-1/Connection-1" }, driver: { name: "ReactiveMongo", version: "1.0.10" } }
+2022-02-08T20:32:27.441+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55927 #116 (4 connections now open)
+2022-02-08T20:32:27.443+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55928 #117 (5 connections now open)
+2022-02-08T20:32:27.447+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55929 #118 (6 connections now open)
+2022-02-08T20:32:27.449+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55930 #119 (7 connections now open)
+2022-02-08T20:32:27.452+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55931 #120 (8 connections now open)
+2022-02-08T20:32:27.456+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55932 #121 (9 connections now open)
+2022-02-08T20:32:27.457+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55933 #122 (10 connections now open)
+2022-02-08T20:32:27.460+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55934 #123 (11 connections now open)
+2022-02-08T20:32:27.464+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:55935 #124 (12 connections now open)
+2022-02-08T21:09:28.539+0100 I  NETWORK  [conn123] end connection 127.0.0.1:55934 (11 connections now open)
+2022-02-08T21:09:28.540+0100 I  NETWORK  [conn115] end connection 127.0.0.1:55926 (10 connections now open)
+2022-02-08T21:09:28.540+0100 I  NETWORK  [conn118] end connection 127.0.0.1:55929 (9 connections now open)
+2022-02-08T21:09:28.540+0100 I  NETWORK  [conn117] end connection 127.0.0.1:55928 (8 connections now open)
+2022-02-08T21:09:28.542+0100 I  NETWORK  [conn114] end connection 127.0.0.1:55925 (7 connections now open)
+2022-02-08T21:09:28.543+0100 I  NETWORK  [conn116] end connection 127.0.0.1:55927 (6 connections now open)
+2022-02-08T21:09:28.543+0100 I  NETWORK  [conn119] end connection 127.0.0.1:55930 (5 connections now open)
+2022-02-08T21:09:28.543+0100 I  NETWORK  [conn120] end connection 127.0.0.1:55931 (4 connections now open)
+2022-02-08T21:09:28.543+0100 I  NETWORK  [conn121] end connection 127.0.0.1:55932 (3 connections now open)
+2022-02-08T21:09:28.544+0100 I  NETWORK  [conn122] end connection 127.0.0.1:55933 (2 connections now open)
+2022-02-08T21:09:28.544+0100 I  NETWORK  [conn124] end connection 127.0.0.1:55935 (1 connection now open)
+2022-02-08T21:12:38.764+0100 I  CONTROL  [thread125] CTRL_CLOSE_EVENT signal
+2022-02-08T21:12:38.764+0100 I  CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2022-02-08T21:12:38.764+0100 I  REPL     [consoleTerminate] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+2022-02-08T21:12:39.495+0100 I  SHARDING [consoleTerminate] Shutting down the WaitForMajorityService
+2022-02-08T21:12:39.722+0100 I  CONTROL  [consoleTerminate] Shutting down the LogicalSessionCache
+2022-02-08T21:12:39.723+0100 I  NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2022-02-08T21:12:39.724+0100 I  NETWORK  [consoleTerminate] Shutting down the global connection pool
+2022-02-08T21:12:39.724+0100 I  STORAGE  [consoleTerminate] Shutting down the FlowControlTicketholder
+2022-02-08T21:12:39.724+0100 I  -        [consoleTerminate] Stopping further Flow Control ticket acquisitions.
+2022-02-08T21:12:39.724+0100 I  STORAGE  [consoleTerminate] Shutting down the PeriodicThreadToAbortExpiredTransactions
+2022-02-08T21:12:39.724+0100 I  STORAGE  [consoleTerminate] Shutting down the PeriodicThreadToDecreaseSnapshotHistoryIfNotNeeded
+2022-02-08T21:12:39.725+0100 I  REPL     [consoleTerminate] Shutting down the ReplicationCoordinator
+2022-02-08T21:12:39.735+0100 I  SHARDING [consoleTerminate] Shutting down the ShardingInitializationMongoD
+2022-02-08T21:12:39.735+0100 I  REPL     [consoleTerminate] Enqueuing the ReplicationStateTransitionLock for shutdown
+2022-02-08T21:12:39.735+0100 I  -        [consoleTerminate] Killing all operations for shutdown
+2022-02-08T21:12:39.736+0100 I  COMMAND  [consoleTerminate] Shutting down all open transactions
+2022-02-08T21:12:39.736+0100 I  REPL     [consoleTerminate] Acquiring the ReplicationStateTransitionLock for shutdown
+2022-02-08T21:12:39.736+0100 I  INDEX    [consoleTerminate] Shutting down the IndexBuildsCoordinator
+2022-02-08T21:12:39.809+0100 I  NETWORK  [consoleTerminate] Shutting down the ReplicaSetMonitor
+2022-02-08T21:12:39.817+0100 I  CONTROL  [consoleTerminate] Shutting down free monitoring
+2022-02-08T21:12:39.817+0100 I  CONTROL  [consoleTerminate] Shutting down free monitoring
+2022-02-08T21:12:39.817+0100 I  FTDC     [consoleTerminate] Shutting down full-time data capture
+2022-02-08T21:12:39.817+0100 I  FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2022-02-08T21:12:39.821+0100 I  STORAGE  [consoleTerminate] Shutting down the HealthLog
+2022-02-08T21:12:39.821+0100 I  STORAGE  [consoleTerminate] Shutting down the storage engine
+2022-02-08T21:12:39.821+0100 I  STORAGE  [consoleTerminate] Deregistering all the collections
+2022-02-08T21:12:39.926+0100 I  STORAGE  [consoleTerminate] Timestamp monitor shutting down
+2022-02-08T21:12:39.927+0100 I  STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2022-02-08T21:12:39.927+0100 I  STORAGE  [consoleTerminate] Shutting down session sweeper thread
+2022-02-08T21:12:40.073+0100 I  STORAGE  [consoleTerminate] Finished shutting down session sweeper thread
+2022-02-08T21:12:40.073+0100 I  STORAGE  [consoleTerminate] Shutting down journal flusher thread
+2022-02-08T21:12:40.150+0100 I  STORAGE  [consoleTerminate] Finished shutting down journal flusher thread
+2022-02-08T21:12:40.150+0100 I  STORAGE  [consoleTerminate] Shutting down checkpoint thread
+2022-02-08T21:12:40.150+0100 I  STORAGE  [consoleTerminate] Finished shutting down checkpoint thread
+2022-02-08T21:12:40.183+0100 I  NETWORK  [conn45] end connection 127.0.0.1:54635 (0 connections now open)
+2022-02-08T21:12:40.782+0100 I  STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2022-02-08T21:12:40.783+0100 I  -        [consoleTerminate] Dropping the scope cache for shutdown
+2022-02-08T21:12:40.783+0100 I  CONTROL  [consoleTerminate] now exiting
+2022-02-08T21:12:40.860+0100 I  CONTROL  [consoleTerminate] shutting down with code:12

@@ -1,0 +1,28 @@
+2022-02-09T10:41:00.367+0100 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2022-02-09T10:41:00.836+0100 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2022-02-09T10:41:00.838+0100 I  CONTROL  [initandlisten] MongoDB starting : pid=14548 port=27019 dbpath=..\data\db 64-bit host=DESKTOP-96RGUT9
+2022-02-09T10:41:00.838+0100 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2022-02-09T10:41:00.838+0100 I  CONTROL  [initandlisten] db version v4.2.10
+2022-02-09T10:41:00.839+0100 I  CONTROL  [initandlisten] git version: 88276238fa97b47c0ef14362b343c5317ecbd739
+2022-02-09T10:41:00.839+0100 I  CONTROL  [initandlisten] allocator: tcmalloc
+2022-02-09T10:41:00.920+0100 I  CONTROL  [initandlisten] modules: none
+2022-02-09T10:41:00.920+0100 I  CONTROL  [initandlisten] build environment:
+2022-02-09T10:41:00.920+0100 I  CONTROL  [initandlisten]     distmod: 2012plus
+2022-02-09T10:41:00.920+0100 I  CONTROL  [initandlisten]     distarch: x86_64
+2022-02-09T10:41:00.920+0100 I  CONTROL  [initandlisten]     target_arch: x86_64
+2022-02-09T10:41:00.921+0100 I  CONTROL  [initandlisten] options: { config: "mongod.conf", net: { port: 27019 }, storage: { dbPath: "..\data\db" }, systemLog: { destination: "file", path: "..\logs\mongodb.log" } }
+2022-02-09T10:41:01.066+0100 I  STORAGE  [initandlisten] exception in initAndListen: NonExistentPath: Data directory ..\data\db not found. Create the missing directory or specify another path using (1) the --dbpath command line option, or (2) by adding the 'storage.dbPath' option in the configuration file., terminating
+2022-02-09T10:41:01.067+0100 I  REPL     [initandlisten] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+2022-02-09T10:41:01.067+0100 I  SHARDING [initandlisten] Shutting down the WaitForMajorityService
+2022-02-09T10:41:01.067+0100 I  NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2022-02-09T10:41:01.067+0100 I  NETWORK  [initandlisten] Shutting down the global connection pool
+2022-02-09T10:41:01.067+0100 I  STORAGE  [initandlisten] Shutting down the FlowControlTicketholder
+2022-02-09T10:41:01.067+0100 I  -        [initandlisten] Stopping further Flow Control ticket acquisitions.
+2022-02-09T10:41:01.067+0100 I  INDEX    [initandlisten] Shutting down the IndexBuildsCoordinator
+2022-02-09T10:41:01.068+0100 I  NETWORK  [initandlisten] Shutting down the ReplicaSetMonitor
+2022-02-09T10:41:01.068+0100 I  CONTROL  [initandlisten] Shutting down free monitoring
+2022-02-09T10:41:01.068+0100 I  FTDC     [initandlisten] Shutting down full-time data capture
+2022-02-09T10:41:01.068+0100 I  STORAGE  [initandlisten] Shutting down the HealthLog
+2022-02-09T10:41:01.068+0100 I  -        [initandlisten] Dropping the scope cache for shutdown
+2022-02-09T10:41:01.068+0100 I  CONTROL  [initandlisten] now exiting
+2022-02-09T10:41:01.068+0100 I  CONTROL  [initandlisten] shutting down with code:100
