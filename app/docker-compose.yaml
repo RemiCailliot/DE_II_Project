@@ -1,0 +1,14 @@
+version : "3"
+
+services :
+  db:
+    build : ./backend/
+    ports : 
+      - "27019"
+  frontend-app : 
+    depends_on:
+      - db
+    build :  ./frontend/
+    ports : 
+      - "4000"
+    
